@@ -1,0 +1,12 @@
+#include <stdio.h>
+typedef struct Dog {
+    char *name;
+    int age;
+} Dog;
+
+int main() {
+    Dog *d;
+    d->age = 5;
+    d->name = "Buddy";
+    printf("%s %d\n", d->name, d->age);
+}
